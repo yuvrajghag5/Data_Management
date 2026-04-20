@@ -24,6 +24,7 @@ tree = ET.parse(xml_path)
 # Access the root element 
 root = tree.getroot()
 
+
 # Show XML structure
 print(ET.tostring(root, encoding="unicode"))
 
@@ -33,6 +34,7 @@ print("Root tag:", root.tag)
 # Count only the first-level child elements
 print("Number of direct child elements:", len(list(root)))
 # Show full XML content as a string
+
 
 
 
