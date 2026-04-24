@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <identifier identifierType="DOI">10.5281/zenodo.6800385</identifier>
+  <creators>
+    <creator>
+      <creatorName>DATASET1</creatorName>
+      <affiliation>UFC</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title xml:lang="en">Dataset of code metrics</title>
+  </titles>
+  <publisher>Zenodo</publisher>
+  <publicationYear>2022</publicationYear>
+  <subjects>
+    <subject>software engineering</subject>
+    <subject>software refactoring</subject>
+    <subject>software metrics</subject>
+    <subject>CK metrics</subject>
+    <subject>machine learning</subject>
+    <subject>Java</subject>
+  </subjects>
+  <language>en</language>
+  <resourceType resourceTypeGeneral="Dataset">Tabular dataset (CSV)</resourceType>
+  <sizes>
+    <size>50925846 bytes</size>
+    <size>232468 rows</size>
+    <size>53 columns</size>
+  </sizes>
+  <formats>
+    <format>text/csv</format>
+  </formats>
+  <version>1.0</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/licenses/by/4.0/" rightsIdentifier="CC-BY-4.0" rightsIdentifierScheme="SPDX">Creative Commons Attribution 4.0 International</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">Tabular dataset of CK software metrics computed on Java class versions. Each row captures metrics (CBO, WMC, DIT, NOC, RFC, LCOM, LCOM*, TCC, LCC, method/field counts, LOC, and AST-derived counters) for a Java class, plus a binary `refactoring` label marking whether a trivial class-level refactoring was applied at that commit. The dataset supports supervised learning of refactoring recommenders.</description>
+  </descriptions>
+</resource>
